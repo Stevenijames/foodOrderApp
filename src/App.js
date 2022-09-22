@@ -4,6 +4,7 @@ import Meals from "./components/Meals/Meals";
 import Cart from "./components/Cart/Cart";
 
 function App() {
+  //initial value set to (false), as that is cartIsShown state.
   const [cartIsShown, setCartIsShown] = useState(false);
 
   const showCartHandler = () => {
